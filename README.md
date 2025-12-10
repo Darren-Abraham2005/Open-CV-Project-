@@ -5,7 +5,7 @@ This repo provides the code for posterizing the input images using the following
  * **numpy :** Helps to access array which are essential for the creation of tables
 
 ### ⚙️Behind the Code
-This code is based on the logic which invovles first reading the image from the path and converting into rgb from bgr as Open CV by default uses bgr and applying median blur to the original image and using matplotlib for displaying the image side by side , original image and median blur image.<br>
+This code is based on the logic which invovles first reading the image from the path and converting into rgb from bgr for displaying images using matplotlib as Open CV by default uses bgr and applying median blur to the original image and using matplotlib for displaying the image side by side , original image and median blur image.<br>
 
 Then a function is made for generating Lookup Table. Lookup Tables (LUTs) are one of the most fundamental and powerful tools in digital image processing, computer graphics, and video post-production. They allow for the incredibly fast and efficient application of complex color and tone transformations to images. The function.The function described performs Color Quantization, which is the process of reducing the total number of distinct colors in an image.<br>
 
