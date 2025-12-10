@@ -17,10 +17,14 @@ Key Mechanism
   
 * **Visual Effect:** By mapping many similar original colors to a single color from the LUT, the process creates the characteristic flat areas of color and hard transitions required for a cartoonized or posterized visual style.<br>
 
-cv2.LUT function is then applied which uses the LUT generated from the function and median blur applied to image as arguments which results in posterized image <br>
+cv2.LUT function is then applied which uses the LUT generated from the function and median blur applied to image as arguments which results in posterized image . Finally using matplotlib the original image and posterized image are side by side<br>
+
+### 🚀Result
+<img width="774" height="370" alt="Screenshot 2025-12-10 054830" src="https://github.com/user-attachments/assets/508164b2-901c-4ba0-85e3-173fde51a0ef" />
 
 
-Finally using matplotlib the original image and posterized image are side by side
+
+
 
 
 
